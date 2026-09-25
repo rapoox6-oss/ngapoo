@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>imoooo</title>
+</head>
+<body>
+      <h1>pengangguran momen</h1>
+<button onclick="tampilkan('deskripsi')">Deskripsi</button>
+<button onclick="tampilkan('sosmed')">Sosmed</button>
+<button onclick="tampilkan('kejutan')">ngapo?</button>
+
+
+<div id="deskripsi">
+    <img src="images.jpg" alt="image" width="350" height="450">
+    <p>Yang bilang Immo gak ngaruh ke kehidupan itu salah besar. Immo itu ngaruh banget ke hidup gua. Sejak nyampe rank itu, gua jadi lebih disiplin karena harus konsisten main dan improve,<br> bukan sekadar asal main terus berharap menang. Gua juga jadi lebih fokus, karena tiap game butuh konsentrasi tinggi dan gak bisa asal autopilot. Selain itu, gua belajar ngatur waktu biar bisa<br> push rank tanpa ngeganggu aktivitas lain, jadi secara gak langsung ngebentuk manajemen waktu yang lebih rapi. Immo juga ngajarin gua kerja sama tim dengan cara yang real. Gak semua orang<br> bisa diajak main enak, tapi di situ gua belajar adaptasi, komunikasi, dan ngerti peran masing-masing. Ini kepake banget di kehidupan nyata, karena dunia juga gak selalu isi orang yang satu<br> frekuensi sama kita. Gua jadi lebih sabar dan lebih ngerti cara handle orang yang beda karakter. Dari sisi pengambilan keputusan, gua ngerasa jauh lebih cepat dan tajam. Di game, satu momen <br> kecil bisa nentuin hasil akhir, jadi gua kebiasa mikir cepat dan tepat di bawah tekanan. Ini kebawa ke kehidupan sehari-hari, dimana gua gak lagi terlalu lama ragu-ragu buat ambil keputusan penting.<br> Mental juga kebentuk banget. Kalah, ketemu toxic, dihujat, itu udah jadi bagian dari proses. Tapi justru dari situ gua belajar buat tetap tenang, gak gampang ke-trigger, dan tetap fokus ke tujuan.<br> Jadi kalau ada yang bilang ini gak ngaruh ke kehidupan, menurut gua mereka belum ngerasain sendiri prosesnya. Selain itu, gua jadi lebih kompetitif dalam arti positif. Gua punya dorongan buat<br> terus improve dan gak cepat puas. Ini bikin gua terbiasa ngejar target dan berusaha lebih baik dari sebelumnya, bukan cuma di game tapi juga di hal lain. Gua juga belajar soal konsistensi. Naik<br> rank gak bisa instan, harus pelan-pelan tapi stabil. Ini ngajarin gua kalau hasil besar itu butuh proses panjang dan usaha terus-menerus, bukan keberuntungan sesaat. Di sisi lain, gua jadi lebih<br> ngerti pentingnya evaluasi diri.</p>
+</div>
+
+<div id="sosmed" style="display:none">
+    <p><h3>Dunia Itu Seperti Buku, Jika Kau Tidak Mencoba<br> Hal Baru,Kau akan Terus Di Bab Satu.</h3></p>
+    <p>Instagram: <a href="https://www.instagram.com/rafictrl?stkn=azN4bWJ1NTV0eGps" onclick="anda akan keluar dari halaman ini">rafictrl</a></p>
+    <p>TikTok: <a href="https://www.tiktok.com/@rapooox?_r=1&_t=ZS-9A1XuhaFPJY" onclick="anda akan keluar dari halaman ini">rapooox</a> </p>
+    <img src="nganggur.jpg" alt="image" width="250" height="250">
+</div>
+
+<div id="kejutan" style="display:none">
+    <p><h3>banyak yang bikin kata, padahal dunia butuh aksi nyata,<br> ingat motivasi tanpa aksi hanyalah imajinas.</h3></p>
+    <img src="masbro.jpg" alt="image" width="250" height="250">
+    <img src="bakekok.jpg" alt="image" width="250" height="250">
+</div>
+
+<script>
+function tampilkan(id) {
+  document.getElementById('deskripsi').style.display = 'none';
+  document.getElementById('sosmed').style.display = 'none';
+  document.getElementById('kejutan').style.display = 'none';
+  document.getElementById(id).style.display = 'block';
+}
+</script>
+
+</body>
+</html>
